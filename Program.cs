@@ -30,7 +30,7 @@ _ = cmd.ExecuteScalar();
 
 Console.WriteLine("Complete");
 
-// POCOs for the UDTs
+// POCOs for the composite and enum types
 class TestUdt
 {
     public const string DataTypeName = "test_udt";
